@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "poc-marp-slidev",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build"
+  },
+  "dependencies": {
+    "@marp-team/marp-core": "^2.1.0",
+    "@slidev/cli": "^0.22.7",
+    "@slidev/theme-default": "^0.19.1"
+  }
+}

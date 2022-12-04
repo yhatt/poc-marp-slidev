@@ -6,8 +6,8 @@
     "build": "slidev build"
   },
   "dependencies": {
-    "@marp-team/marp-core": "^2.1.0",
-    "@slidev/cli": "^0.22.7",
-    "@slidev/theme-default": "^0.19.1"
+    "@marp-team/marp-core": "^3.4.0",
+    "@slidev/cli": "^0.37.1",
+    "@slidev/theme-default": "^0.21.2"
   }
 }

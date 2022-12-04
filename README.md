@@ -1,20 +1,23 @@
 # poc-marp-slidev
 
-Just a curious and crazy PoC to integrate [Marp](https://marp.app) with [Slidev](https://sli.dev).
+Just a curious and crazy PoC to integrate [Marp](https://marp.app) with [Slidev](https://sli.dev). Render Marp slides on Slidev's presentation interface.
+
+**[https://poc-marp-slidev.netlify.app/](https://poc-marp-slidev.netlify.app/)**
 
 <p align="center">
-  <img src="./screencast.gif" />
+  <a href="https://poc-marp-slidev.netlify.app/"><img src="./screencast.gif" /></a>
 </p>
 
 ## Try
 
-1. `npm install`
-1. `npm run dev`
-1. Visit http://localhost:3030
+```
+npm i
+npm run dev
+```
 
-### Is it useful for making slides?
+## Is it useful?
 
-No. Highly recommend to use either of Slidev or Marp straightly. 🙃
+This PoC may be helpful if you like simple and minimum Markdown syntax provided by Marp, and want more enhanced presentation interface from Slidev: Overview, Recording, Drawing, Webcam PiP, etc...
 
 ## License
 

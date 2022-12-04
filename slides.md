@@ -1,6 +1,10 @@
 ---
 marp: true
-title: Marp on Slidev
+title: Marp on Slidev PoC
+
+# Some Slidev headmatters are still supported
+favicon: https://marp.app/favicon.png
+info: "Just a curious and crazy PoC to integrate [Marp](https://marp.app) with [Slidev](https://sli.dev). Render Marp slides on Slidev's presentation interface."
 ---
 
 <!--
@@ -14,13 +18,16 @@ _backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 
 An integration example of Marp for Slidev
 
+<!-- Marp's presenter note is also working correctly. -->
+<!-- Unlike Slidev, Marp recognizes every comments in a page as the presenter note. -->
+
 ---
 
 <!--
 _class: invert
 -->
 
-## <!--fit--> Yes, it is (paritally) working! :rofl:
+## <!--fit--> Yes, it's working! :rofl:
 
 This is Slidev but also Marp :smile:
 
@@ -46,7 +53,7 @@ foobar
 
 ---
 
-# Restrictions
+## Limitations
 
-- Front-matter and HTML comments would be consumed by Slidev.
-- Local directives are always scoped.
+- Cannot mix features for Markdown contents, both of Marp and Slidev.
+- An original Markdown will break if edited Markdown or notes through Slidev's web interface.

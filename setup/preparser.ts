@@ -3,18 +3,26 @@ import { Marp } from '@marp-team/marp-core'
 import YAML from 'js-yaml'
 
 const slidevInheritedHeadmatters = [
+  'author',
+  'browserExporter',
+  'colorSchema',
+  'contextMenu',
+  'download',
+  'drawings',
+  'editor',
+  'exportFilename',
+  'favicon',
+  'htmlAttrs',
+  'info',
+  'presenter',
+  'record',
+  'remote',
+  'remoteAssets',
+  'routerMode',
+  'selectable',
   'title',
   'titleTemplate',
-  'info',
-  'download',
-  'exportFilename',
-  'remoteAssets',
-  'selectable',
-  'record',
-  'colorSchema',
-  'routerMode',
-  'favicon',
-  'drawings',
+  'wakeLock',
 ]
 
 const marp = new Marp({
